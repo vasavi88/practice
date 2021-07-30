@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+     
+    <p id = "d">Hello World</p>
+      
+    <input type="button" value="Click" onclick="character()">
+      
+    <script>
+        function character() {
+            var string = document.getElementById("d").innerHTML;
+            document.getElementById("d").innerHTML = string.split("");
+        }
+    </script>
+</body>
+  
+</html>
